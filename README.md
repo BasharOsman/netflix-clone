@@ -5,4 +5,4 @@ i used an flex box to design the site so the code will be minified and simple to
 
 
 ### Example    
-[![Github](http://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)](www.example.com)
+[<img src="http://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="150">](https://basharosman.github.io/netflix-clone/)
