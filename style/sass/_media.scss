@@ -1,0 +1,84 @@
+
+  @media (max-width: 900px) {
+    html { font-size: 14px; }
+    .join{
+      margin: 0 auto;
+      form{ 
+        flex-direction: column;
+      }
+      button { 
+        margin: 1rem;
+        align-self: center;
+        max-width: 50%;
+        height: 70px;
+      }
+      input{ 
+        max-width: 500px;
+        min-width: 450px;
+      }
+    }
+    .secondsection{
+        .content{
+        flex-direction: column;
+        text-align: center;
+
+        .text{
+          max-width: 100%;
+        }
+
+        &:nth-child(even) {
+          .text{
+            
+              order: 0;
+          }
+    }
+        .template{
+          max-width: 70%;
+        }
+    }
+    
+  }
+  .faq{
+    li{ 
+      width: 100%;
+    }
+  }
+  }
+  @media (max-width: 720px) {
+    html { font-size: 10px; }
+    
+    .firstsection .text .join{ 
+      label {
+        max-width: 400px;
+      }
+      label:first-child, input{
+        min-width: 400px;
+        height: 50px;
+      }
+      form{
+        flex-direction: column;
+      }
+      button{
+        height: 5rem;
+        max-width: 20rem;
+        margin: 1rem auto;
+      }
+      
+  }
+    footer{ 
+      .lists{
+        justify-content: center;
+        font-size: 1.25rem;
+        .list{
+          width:30%;
+        }
+      }
+    }
+  }
+  @media (max-width: 400px) {
+    html { font-size: 7px; }
+
+    .firstsection .text .join input{
+      min-width: 200px;
+    }
+  }
